@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "宝运配送",
+    "slug": "baoyun-tms-driver",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "locales": {
+      "en": "./locales/en.json",
+      "my": "./locales/my.json",
+      "zh-Hans": "./locales/zh.json"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.baoyun.tms.driver",
+      "infoPlist": {
+        "CFBundleAllowMixedLocalizations": true,
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.baoyun.tms.driver"
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Baoyun Delivery uses your location while you have a delivery in progress and the app is open, so dispatchers can follow the delivery.",
+          "locationAlwaysAndWhenInUsePermission": "Baoyun Delivery uses your location while you have a delivery in progress and the app is open, so dispatchers can follow the delivery.",
+          "isIosBackgroundLocationEnabled": false,
+          "isAndroidBackgroundLocationEnabled": false
+        }
+      ],
+      "expo-secure-store",
+      "expo-localization"
+    ]
+  }
+}

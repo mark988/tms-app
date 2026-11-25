@@ -1,0 +1,5 @@
+{
+  "CFBundleDisplayName": "Baoyun Delivery",
+  "NSLocationWhenInUseUsageDescription": "Baoyun Delivery uses your location while you have a delivery in progress and the app is open, so dispatchers can follow the delivery.",
+  "NSLocationAlwaysAndWhenInUseUsageDescription": "Baoyun Delivery uses your location while you have a delivery in progress and the app is open, so dispatchers can follow the delivery."
+}

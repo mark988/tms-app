@@ -1,0 +1,5 @@
+{
+  "CFBundleDisplayName": "宝运配送",
+  "NSLocationWhenInUseUsageDescription": "宝运配送在您有进行中的配送任务并且打开 App 时获取位置，用来把配送进度同步给调度人员。",
+  "NSLocationAlwaysAndWhenInUseUsageDescription": "宝运配送在您有进行中的配送任务并且打开 App 时获取位置，用来把配送进度同步给调度人员。"
+}
